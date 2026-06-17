@@ -1,0 +1,100 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f2f6fc;
+    color: #222;
+}
+h1,
+h2,
+h3,
+legend {
+    font-family: Georgia, serif;
+}
+header {
+    text-align: center;
+    background-color:rgb(22, 130, 173);
+    color: white;
+    padding: 25px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 10px;
+}
+
+main {
+    max-width: 900px;
+    margin: 30px auto;
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    border:2px solid lightgray;
+}
+
+fieldset {
+    border: 1px solid skyblue;
+    border-radius: 8px;
+    margin-bottom: 12px;
+    padding: 12px;
+    background-color: aliceblue;
+}
+
+legend {
+    font-weight: bold;
+    color: rgb(227, 113, 132);
+}
+
+input,
+select,
+textarea {
+    padding: 10px;
+    width: 90%;
+    max-width: 500px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    width: auto;
+    max-width: none;
+    margin-right: 3px;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+    outline:none;
+    border: 2px navy
+}
+
+button {
+    background-color: navy;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color:royalblue;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th {
+    background-color: #1f4e79;
+    color:white
+}
+
+th,
+td {
+    padding: 10px;
+    text-align: left;
+}
