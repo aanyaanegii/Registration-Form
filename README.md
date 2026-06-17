@@ -6,5 +6,5 @@
 * HTML5
 * CSS3
 
-🌐 # Live Demo:
+🌐Live Demo:
 https://aanyaanegii.github.io/Registration-Form/
