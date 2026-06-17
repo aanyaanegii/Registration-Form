@@ -5,7 +5,6 @@
 ## TECHNOLOGIES USED:
 * HTML5
 * CSS3
-# Registration Form
 
-🌐 Live Demo:
+🌐 # Live Demo:
 https://aanyaanegii.github.io/Registration-Form/
