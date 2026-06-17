@@ -1,0 +1,285 @@
+<!DOCTYPE html> 
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+        <meta
+        name="description"
+        content="Complete HTML Demo Project"
+        />
+        <link rel="stylesheet" href="form.css">
+        <title>Complete HTML Learning Project </title>
+    </head>
+    <body>
+        <!--HEADER-->
+        <header>
+            <h1>Student Registration Form</h1>
+            <p>Fill in your details.</p>
+            <nav>
+                <a href="#Registration">Registration</a> |
+                <a href="#Courses">Courses</a> |
+                <a href="#Media">Media</a>
+                </nav>
+                <hr>
+                </header>
+                <main>
+                    <!--ARTICLE-->
+                    <section>
+                        <article>
+                            <h2>About this form</h2>
+                            <p>
+                                This project demonstrates almost every important concept of HTML in a single page
+
+                            </p>
+                        </article>
+                    </section>
+                    <hr />
+                    <!--FORM START-->
+                    <section id="registation">
+                        <h2>Student Registration</h2>
+                        <form action="#" method="post">
+                            <!--PERSONAL INFO-->
+                            <fieldset>
+                                <legend>Personal Information</legend>
+                                <label for="Fullname">Full name:</label><br />
+                                <input
+                                type="text"
+                                id="Fullname"
+                                placeholder="enter Full name"
+                                required/>
+                                <br/><br/>
+                                <label for="Email">Email:</label><br />
+                                <input
+                                type="Email"
+                                id="Email"
+                                name="Email"
+                                placeholder="example@gmail.com"
+                                required/>
+                                <br/><br/>
+                                <label for="Phone">Mobile number:</label><br />
+                                <input
+                                type="tel"
+                                id="Phone"
+                                name="Phone"
+                                placeholder="9876543210"
+                                pattern="[0-9]{10}"
+                                />
+                                <br/><br/>
+                                <label for="Age">Age:</label><br />
+                                <input
+                                type="number"
+                                id="age"
+                                name="age"
+                                min="18"
+                                max="60"
+                                />
+                                <br /><br />
+                                <label for="dob">Date of Birth:</label><br />
+                                <input type="date" id="dob" name="dob" />
+                            </fieldset>
+                            <!--GENDER-->
+                            <fieldset>
+                                <legend>Gender</legend>
+                                <input type="radio" id="male" name="gender" />
+                                <label for="male">Male</label>
+                                <br />
+                                <input type="radio" id="female" name="gender" />
+                                <label for="female">Female</label>
+                                <br />
+                                <input type="radio" id="other" name="gender" />
+                                <label for="other">other</label>
+
+                            </fieldset>
+                            <br />
+                            <!--SKILLS-->
+                            <fieldset>
+                                <legend>Skills</legend>
+                                <input type="checkbox" id="html" />
+                                <label for="html">HTML</label>
+                                <br />
+                                <input type="checkbox" id="js" />
+                                <label for="js">JAVASCRIPT</label>
+                                <br />
+                                <input type="checkbox" id="react" />
+                                <label for="react">REACT</label>
+
+                            </fieldset>
+                            <br />
+                            <!--COURSE-->
+                            <label>Select Course:</label><br />
+                            <select>
+                                <option>-- Choose Course --</option>
+                                <option>Frontend Development</option>
+                                <option>Backend Development</option>
+                                <option>Full Stack Development</option>
+                            </select>
+                            <br /><br />
+                            <!-- DATALIST -->
+                             <label>Select City:</label><br />
+
+                             <input list="cities" placeholder="Choose City" />
+                             <datalist id="cities" >
+                                <option value="Delhi"></option>
+                                <option value="Chandigarh"></option>
+                                <option value="Mumbai"></option>
+                                <option value="Jaipur"></option>
+                             </datalist>
+                             <br /><br />
+                             <!-- ADDRESS-->
+                              <label>Address:</label><br />
+                              <textarea
+                              rows="5"
+                              cols="40"
+                              placeholder="Enter your Address"
+                              ></textarea>
+                              <br /><br />
+                              <!-- HTML5 INPUT TYPES -->
+                               <fieldset>
+                                <legend>Additional Information</legend>
+                                <label>Portfolio Website:</label><br />
+                                <input type="url" placeholder="https:portfolio.com" />
+                                <br /><br />
+                                <label>Preferred Batch Time:</label><br />
+                                <input type="Time" />
+                                <br /><br />
+                                <label>Joining Month:</label><br />
+                                <input type="month" />
+                                <br /><br />
+                                <label>Preferred Week:</label><br />
+                                <input type="week" />
+                                <br /><br />
+                        
+                               
+                               <label>HTML KNOWLEDGE LEVEL:</label><br />
+                               <input type="range" min="0" max="100" />
+                               </fieldset>
+                               <br />
+                               <!--TABLE-->
+                               <fieldset id="courses">
+                                <legend>Course Details</legend>
+                                <table border="1" cellpadding="10" cellspacing="0">
+                                    <caption>
+                                        Available Courses & Fees
+                                    </caption>
+                                    <thead>
+                                        <tr>
+                                            <th>Course</th>
+                                            <th>Duration</th>
+                                            <th>Fees</th>
+                                            <th>Mode</th>
+
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>Frontend Development</td>
+                                            <td>3 Months</td>
+                                            <td>15,000 rupees</td>
+                                            <td>Online</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Backend Development</td>
+                                            <td>4 Months</td>
+                                            <td>18,000 rupees</td>
+                                            <td>Offline</td>
+                                        
+                                        </tr>
+                                        <tr>
+                                            <td>FullStack Development</td>
+                                            <td>6 Months</td>
+                                            <td>30,000 rupees</td>
+                                            <td>Hybrid</td>
+                                        </tr>
+                                    </tbody>
+                                    <tfoot>
+                                        <tr>
+                                            <td colspan="4" align="centre">
+                                                Fees are inclusive of GST
+
+                                            </td>
+                                        </tr>
+                                    </tfoot>
+                                </table>
+                               </fieldset>
+                               <br />
+                               <!--LISTS-->
+                               <fieldset>
+                                <legend>Course Benefits</legend>
+                                <li>HTML Basics</li>
+                                <li>CSS Fundamentals</li>
+                                <li>JavaScript</li>
+                                <li>React JS</li>
+                               </ol>
+                               </fieldset>
+                               <br />
+                               <!--IMAGE-->
+                               <fieldset>
+                                <legend>Institute Logo</legend>
+                                <img
+                                src="https://via.placeholder.com/200"
+                                alt="Institute Logo"
+                                width="200"
+                                />
+                               </fieldset>
+                               <br />
+                               <!--FILE-->
+                               <label>Upload Photo:</label><br />
+                               <input type="file" />
+                               <br /><br />
+                               <!--AUDIO-->
+                               <fieldset id="media">
+                                <legend>Audio Tag</legend>
+                                <audio controls>
+                                    <source src="sample-audio.mp3" type="audio/mpeg" />
+                                    Your browser does not support audio.
+                                </audio>
+                               </fieldset>
+                               <br />
+                               <!--VIDEO-->
+                               <fieldset>
+                                <legend>Video Tag</legend>
+                                <video width="350" controls>
+                                    <source src="sample-video.mp4" type="video/mp4" />
+                                    Your browser doesnot not support video.
+                                </video>
+                               </fieldset>
+                               <br />
+                               <fieldset>
+                                <legend>Progress Tag</legend>
+                                <p>HTML Course completion</p>
+                                <progress value="70" max="100"></progress>
+                               </fieldset>
+                               <br />
+                               <fieldset>
+                                <legend>Meter Tag</legend>
+                                <p> StudentPerformance</p>
+                                <meter value=".80">80%</meter>
+                               </fieldset>
+                               <br />
+                               <details>
+                                <summary>READ IMPORTANT INSTRUCTIONS</summary>
+                                <P>Please Fill all Mandatory Instructions before Submitting the Form</P>
+                               </details>
+                               <br />
+                               <p>
+                                Visit Our
+                                <a href="https://www.google.com" target="_blank">
+                                    Official Website
+                                </a>
+                               </p>
+                               <h3>Block vs Inline Example</h3>
+                               <p>
+                                My Name is <span> AANYA</span>
+                                and I'm Learning HTML.
+                               </p>
+                               <button type="submit">REGISTER</button>
+                               <button type="reset">RESET</button>
+
+
+                        </form>
+                    </section>
+                </main>
+            
+        </header>
+    </body>
+</html>
