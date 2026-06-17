@@ -5,5 +5,7 @@
 ## TECHNOLOGIES USED:
 * HTML5
 * CSS3
-## Project Preview
-OPEN `index.html` in your browser or chrome
+# Registration Form
+
+🌐 Live Demo:
+https://aanyaanegii.github.io/Registration-Form/
